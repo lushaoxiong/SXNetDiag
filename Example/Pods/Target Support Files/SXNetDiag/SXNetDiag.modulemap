@@ -1,0 +1,6 @@
+framework module SXNetDiag {
+  umbrella header "SXNetDiag-umbrella.h"
+
+  export *
+  module * { export * }
+}

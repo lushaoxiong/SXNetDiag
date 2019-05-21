@@ -1,0 +1,6 @@
+framework module Pods_SXNetDiag_Example {
+  umbrella header "Pods-SXNetDiag_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

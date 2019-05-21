@@ -1,0 +1,16 @@
+PODS:
+  - SXNetDiag (0.1.0)
+
+DEPENDENCIES:
+  - SXNetDiag (from `../`)
+
+EXTERNAL SOURCES:
+  SXNetDiag:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SXNetDiag: fcfb23df9900812962339b179c703a93e47a41b5
+
+PODFILE CHECKSUM: 0e38bce50778a84eb5120d5d6cde4a89701c1bfb
+
+COCOAPODS: 1.5.3

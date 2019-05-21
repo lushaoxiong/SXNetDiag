@@ -1,0 +1,22 @@
+{
+  "name": "SXNetDiag",
+  "version": "0.1.0",
+  "summary": "A short description of SXNetDiag.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lushaoxiong/SXNetDiag",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lushaoxiong": "18634324168@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lushaoxiong/SXNetDiag.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SXNetDiag/Classes/**/*"
+}

@@ -1,0 +1,857 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08A9B99DC0E8BB744EE81117FCBD2AF6 /* GetDomainDnsInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D12F9D912E80ACA78124384BA1EAB071 /* GetDomainDnsInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		137B620BDBA5DC90E80E278B84F77354 /* LDNetPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 524904BCEF25EA0A836C9E7891FE42E7 /* LDNetPing.m */; };
+		257DC472F5E577802DA59F701C105D76 /* DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D4315E9B8EA3BAE5B96E5342C8026 /* DateTools.m */; };
+		335212D64B7177273808897824066451 /* Pods-SXNetDiag_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B901B85A8D7C8F73A42ACEBD5811B195 /* Pods-SXNetDiag_Tests-dummy.m */; };
+		3A237CF99CBD43FD1B2C46074AB1931B /* LDNetTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EACF68A4DE2B268954C0A2671D7B37AD /* LDNetTimer.m */; };
+		3D0A2282A768E545B6449EDE1DBD157E /* NetworkDiag.h in Headers */ = {isa = PBXBuildFile; fileRef = 589039F6D6CDEDA48AF18E251406478C /* NetworkDiag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44E651087911788FEBC56A00A558FE5C /* GetDnsInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A173B825ED34E95A2C14B31F0A755 /* GetDnsInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C30D90748EFD94CDF022D599B0ADE6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		507694B4E691955F310A9BD228ED73D9 /* SXNetDiag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A5B0E5375F380E09AB983E8564F5F9 /* SXNetDiag-dummy.m */; };
+		547D6848166C729A52230DFD37B361E6 /* LDNetPing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5A673A7BA145D97822661E38914F78 /* LDNetPing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		678CAB3452BA71853C17DEF43865808D /* GetDomainDnsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A5E57179B8A8405D5D3452D5995956 /* GetDomainDnsInfo.m */; };
+		6B837B4FF7D534026060F619F268E1E9 /* Pods-SXNetDiag_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9371560B413645313541220DA58945 /* Pods-SXNetDiag_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F69C81BFE269181ED2834A8A61C53B7 /* DateTools.h in Headers */ = {isa = PBXBuildFile; fileRef = C25FB6B013DA964E05E12464EEB56FA1 /* DateTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EACD8A55BCCE807F3AFA0C9BAFFD566 /* SXNetDiag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B3BF0B161EAC6D585AF930FF6504E6 /* SXNetDiag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1904F4707126B55913BCEFA049CFE8E /* Pods-SXNetDiag_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 707318A98315E323F163EA34133BAD06 /* Pods-SXNetDiag_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF471B52AC43A27EE38FCADC6BA659A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		B05E9EA1FAC182EB015F4C4F5382AFFD /* GetEnvInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 000D922F5F16BA58C16EA501962CC9A4 /* GetEnvInfo.m */; };
+		B559990F1E0E747432D3283C14560F62 /* Pods-SXNetDiag_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75599D59D14A5A3EF3999460709A89DE /* Pods-SXNetDiag_Example-dummy.m */; };
+		B67C76A8B590854BB3F8BFB5D35B32B3 /* GetDnsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A769A417E18A047E4272D1936E7E4C2 /* GetDnsInfo.m */; };
+		C4A80FCE151F45DE9A9EFE78F727B50F /* Route.h in Headers */ = {isa = PBXBuildFile; fileRef = FB626F16EDB298E08610554CE282E209 /* Route.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6792D13E8DA233A8FAC1661DFAD6CD0 /* NetworkDiag.m in Sources */ = {isa = PBXBuildFile; fileRef = 12328A6BD4C0D5AAA728DBAF05145026 /* NetworkDiag.m */; };
+		CB9FA1C0D63BA2C8AB6D37E2AAB7ACE0 /* GetDownloadFileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD7952D0C96BE7C6E89C32C0ACB24D5 /* GetDownloadFileInfo.m */; };
+		CE136B0EE2C390CEA8926D6D6DC640BF /* GetEnvInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CA7D6848EBE45EA85BF969CF7D28466A /* GetEnvInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD98F1F77E3B0E80F7FDF1C5CE5A2C01 /* LDNetTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D93DD0722F7D5B4F08DF1BE96C55129D /* LDNetTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2D4E3F7F0D9D3725C78D5E96ED91472 /* LDSimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A450834B1D715F0AF4E5DECE631875 /* LDSimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7FCA83F0C37FE13AED9D86277AA0030 /* GetDownloadFileInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B39FA81C0FC651B4618703B609C703 /* GetDownloadFileInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAEDBE72858AD122749C4CFB54C79F69 /* LDNetGetAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A507AC85CF65DB99FE6E3F798961CB6 /* LDNetGetAddress.m */; };
+		EB295A508B929C0962616838F40C8367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		F5D0D3B09AB29D0B4D599EFCDD8241AC /* LDSimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD60263BD38E58BE92A02EE66C30E8E /* LDSimplePing.m */; };
+		F877CBDE8CED5FB7EA3ACC0A8DAAB53A /* LDNetGetAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 779DBC3E5C93C44D66867D98258FA204 /* LDNetGetAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6710CB39C9CA96B987139F8A8752D204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 455F3896583904B3CE6B934716FB84B7;
+			remoteInfo = SXNetDiag;
+		};
+		7339C0B83D99A2B502C7598D34D186AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8F9A08276D39FEFF7A6594D61AEC8F;
+			remoteInfo = "Pods-SXNetDiag_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000D922F5F16BA58C16EA501962CC9A4 /* GetEnvInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetEnvInfo.m; path = SXNetDiag/Classes/netdiag/GetEnvInfo.m; sourceTree = "<group>"; };
+		01102FB7887FAB4765FD41E733A27EB1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0672798E838A3C717F6D128F7D842434 /* Pods-SXNetDiag_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SXNetDiag_Tests.modulemap"; sourceTree = "<group>"; };
+		08D944B04D59933D99D6B99850C243C8 /* Pods-SXNetDiag_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SXNetDiag_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B4D4315E9B8EA3BAE5B96E5342C8026 /* DateTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DateTools.m; path = SXNetDiag/Classes/netdiag/DateTools.m; sourceTree = "<group>"; };
+		0DBEB0DEA6AC70A2A53E8F815E98D7FE /* Pods-SXNetDiag_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXNetDiag_Example-resources.sh"; sourceTree = "<group>"; };
+		12328A6BD4C0D5AAA728DBAF05145026 /* NetworkDiag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetworkDiag.m; path = SXNetDiag/Classes/netdiag/NetworkDiag.m; sourceTree = "<group>"; };
+		18341DB97CB4278BF5D96DD964B4CEA0 /* SXNetDiag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SXNetDiag.framework; path = SXNetDiag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A5E57179B8A8405D5D3452D5995956 /* GetDomainDnsInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetDomainDnsInfo.m; path = SXNetDiag/Classes/netdiag/GetDomainDnsInfo.m; sourceTree = "<group>"; };
+		3190B938F7151981E8D3AD282D30974B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3A507AC85CF65DB99FE6E3F798961CB6 /* LDNetGetAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDNetGetAddress.m; path = SXNetDiag/Classes/netdiag/LDNetGetAddress.m; sourceTree = "<group>"; };
+		3B1D31B54ED8CA8300A5C9C71A87AE1E /* Pods-SXNetDiag_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXNetDiag_Tests-resources.sh"; sourceTree = "<group>"; };
+		3D5ABAD115994A85797FF63CF8BD581D /* Pods-SXNetDiag_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SXNetDiag_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		42D8FC1A3E9526D96FF77EF3B11BB7F2 /* Pods-SXNetDiag_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXNetDiag_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4A19BBC253144D3361F76100C6FE992C /* Pods-SXNetDiag_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXNetDiag_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		524904BCEF25EA0A836C9E7891FE42E7 /* LDNetPing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDNetPing.m; path = SXNetDiag/Classes/netdiag/LDNetPing.m; sourceTree = "<group>"; };
+		589039F6D6CDEDA48AF18E251406478C /* NetworkDiag.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkDiag.h; path = SXNetDiag/Classes/netdiag/NetworkDiag.h; sourceTree = "<group>"; };
+		5A224C8DB2CB6EB5539A2B95ED4802AE /* Pods-SXNetDiag_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SXNetDiag_Example.modulemap"; sourceTree = "<group>"; };
+		6B5A673A7BA145D97822661E38914F78 /* LDNetPing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDNetPing.h; path = SXNetDiag/Classes/netdiag/LDNetPing.h; sourceTree = "<group>"; };
+		6BA36C575DCB31E8F56F41B563954982 /* Pods-SXNetDiag_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXNetDiag_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6D71669B486B31EB3C478744F5EBA7DD /* SXNetDiag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SXNetDiag.xcconfig; sourceTree = "<group>"; };
+		6F9371560B413645313541220DA58945 /* Pods-SXNetDiag_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SXNetDiag_Example-umbrella.h"; sourceTree = "<group>"; };
+		707318A98315E323F163EA34133BAD06 /* Pods-SXNetDiag_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SXNetDiag_Tests-umbrella.h"; sourceTree = "<group>"; };
+		71B3BF0B161EAC6D585AF930FF6504E6 /* SXNetDiag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SXNetDiag-umbrella.h"; sourceTree = "<group>"; };
+		75599D59D14A5A3EF3999460709A89DE /* Pods-SXNetDiag_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SXNetDiag_Example-dummy.m"; sourceTree = "<group>"; };
+		779DBC3E5C93C44D66867D98258FA204 /* LDNetGetAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDNetGetAddress.h; path = SXNetDiag/Classes/netdiag/LDNetGetAddress.h; sourceTree = "<group>"; };
+		7EE6996FC5DC74758EECA29DE4B38F88 /* Pods-SXNetDiag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXNetDiag_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8050949F254F0CFE38F9178BF9ACC02A /* SXNetDiag.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SXNetDiag.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		85BD45B087835E20AB6E644B3F98A92D /* Pods_SXNetDiag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SXNetDiag_Tests.framework; path = "Pods-SXNetDiag_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87375E2FC4664D8FEDF574280103AEC9 /* SXNetDiag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SXNetDiag-prefix.pch"; sourceTree = "<group>"; };
+		8E8667BE94BA45DEE2F2B40D1BF220C9 /* SXNetDiag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SXNetDiag.modulemap; sourceTree = "<group>"; };
+		90B1DD180E800EF9E8AFFB4527083FC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98FDFD75C13D340AA0201849B3C8F044 /* Pods_SXNetDiag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SXNetDiag_Example.framework; path = "Pods-SXNetDiag_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A769A417E18A047E4272D1936E7E4C2 /* GetDnsInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetDnsInfo.m; path = SXNetDiag/Classes/netdiag/GetDnsInfo.m; sourceTree = "<group>"; };
+		ADD60263BD38E58BE92A02EE66C30E8E /* LDSimplePing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDSimplePing.m; path = SXNetDiag/Classes/netdiag/LDSimplePing.m; sourceTree = "<group>"; };
+		ADD7952D0C96BE7C6E89C32C0ACB24D5 /* GetDownloadFileInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetDownloadFileInfo.m; path = SXNetDiag/Classes/netdiag/GetDownloadFileInfo.m; sourceTree = "<group>"; };
+		B7D2C86B7BDEA0AC3B8EC5DC1AEA4E7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B901B85A8D7C8F73A42ACEBD5811B195 /* Pods-SXNetDiag_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SXNetDiag_Tests-dummy.m"; sourceTree = "<group>"; };
+		C25FB6B013DA964E05E12464EEB56FA1 /* DateTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateTools.h; path = SXNetDiag/Classes/netdiag/DateTools.h; sourceTree = "<group>"; };
+		C87DF28979CB3869D591D3F26C51DD37 /* Pods-SXNetDiag_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SXNetDiag_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA7D6848EBE45EA85BF969CF7D28466A /* GetEnvInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetEnvInfo.h; path = SXNetDiag/Classes/netdiag/GetEnvInfo.h; sourceTree = "<group>"; };
+		CADB0125D444C2DDFBC4AF7A4D3A3CDA /* Pods-SXNetDiag_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SXNetDiag_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D12F9D912E80ACA78124384BA1EAB071 /* GetDomainDnsInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetDomainDnsInfo.h; path = SXNetDiag/Classes/netdiag/GetDomainDnsInfo.h; sourceTree = "<group>"; };
+		D67A173B825ED34E95A2C14B31F0A755 /* GetDnsInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetDnsInfo.h; path = SXNetDiag/Classes/netdiag/GetDnsInfo.h; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D93DD0722F7D5B4F08DF1BE96C55129D /* LDNetTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDNetTimer.h; path = SXNetDiag/Classes/netdiag/LDNetTimer.h; sourceTree = "<group>"; };
+		E4A450834B1D715F0AF4E5DECE631875 /* LDSimplePing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDSimplePing.h; path = SXNetDiag/Classes/netdiag/LDSimplePing.h; sourceTree = "<group>"; };
+		EACF68A4DE2B268954C0A2671D7B37AD /* LDNetTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDNetTimer.m; path = SXNetDiag/Classes/netdiag/LDNetTimer.m; sourceTree = "<group>"; };
+		F0A5B0E5375F380E09AB983E8564F5F9 /* SXNetDiag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SXNetDiag-dummy.m"; sourceTree = "<group>"; };
+		F2AF55E27DF704ACD78462B12D3B5B3B /* Pods-SXNetDiag_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXNetDiag_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5B39FA81C0FC651B4618703B609C703 /* GetDownloadFileInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GetDownloadFileInfo.h; path = SXNetDiag/Classes/netdiag/GetDownloadFileInfo.h; sourceTree = "<group>"; };
+		FB626F16EDB298E08610554CE282E209 /* Route.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Route.h; path = SXNetDiag/Classes/netdiag/Route.h; sourceTree = "<group>"; };
+		FB91646D2576C8752EA7C0178839D480 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE021945A947323190268F7B5EF39E5A /* Pods-SXNetDiag_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXNetDiag_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F430771637A4D9757721DA0437F003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C30D90748EFD94CDF022D599B0ADE6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68C95640BE29E29827F54E4E62190C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB295A508B929C0962616838F40C8367 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBD6373BD8218ADEE7A5299A4F9917EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF471B52AC43A27EE38FCADC6BA659A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E7BA3C4BD9324B3B095CB0AF48CC17D /* Pods-SXNetDiag_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FB91646D2576C8752EA7C0178839D480 /* Info.plist */,
+				0672798E838A3C717F6D128F7D842434 /* Pods-SXNetDiag_Tests.modulemap */,
+				CADB0125D444C2DDFBC4AF7A4D3A3CDA /* Pods-SXNetDiag_Tests-acknowledgements.markdown */,
+				3D5ABAD115994A85797FF63CF8BD581D /* Pods-SXNetDiag_Tests-acknowledgements.plist */,
+				B901B85A8D7C8F73A42ACEBD5811B195 /* Pods-SXNetDiag_Tests-dummy.m */,
+				6BA36C575DCB31E8F56F41B563954982 /* Pods-SXNetDiag_Tests-frameworks.sh */,
+				3B1D31B54ED8CA8300A5C9C71A87AE1E /* Pods-SXNetDiag_Tests-resources.sh */,
+				707318A98315E323F163EA34133BAD06 /* Pods-SXNetDiag_Tests-umbrella.h */,
+				F2AF55E27DF704ACD78462B12D3B5B3B /* Pods-SXNetDiag_Tests.debug.xcconfig */,
+				7EE6996FC5DC74758EECA29DE4B38F88 /* Pods-SXNetDiag_Tests.release.xcconfig */,
+			);
+			name = "Pods-SXNetDiag_Tests";
+			path = "Target Support Files/Pods-SXNetDiag_Tests";
+			sourceTree = "<group>";
+		};
+		386C8D64631D5BFC5CEB533C4C40AB70 /* SXNetDiag */ = {
+			isa = PBXGroup;
+			children = (
+				C25FB6B013DA964E05E12464EEB56FA1 /* DateTools.h */,
+				0B4D4315E9B8EA3BAE5B96E5342C8026 /* DateTools.m */,
+				D67A173B825ED34E95A2C14B31F0A755 /* GetDnsInfo.h */,
+				9A769A417E18A047E4272D1936E7E4C2 /* GetDnsInfo.m */,
+				D12F9D912E80ACA78124384BA1EAB071 /* GetDomainDnsInfo.h */,
+				20A5E57179B8A8405D5D3452D5995956 /* GetDomainDnsInfo.m */,
+				F5B39FA81C0FC651B4618703B609C703 /* GetDownloadFileInfo.h */,
+				ADD7952D0C96BE7C6E89C32C0ACB24D5 /* GetDownloadFileInfo.m */,
+				CA7D6848EBE45EA85BF969CF7D28466A /* GetEnvInfo.h */,
+				000D922F5F16BA58C16EA501962CC9A4 /* GetEnvInfo.m */,
+				779DBC3E5C93C44D66867D98258FA204 /* LDNetGetAddress.h */,
+				3A507AC85CF65DB99FE6E3F798961CB6 /* LDNetGetAddress.m */,
+				6B5A673A7BA145D97822661E38914F78 /* LDNetPing.h */,
+				524904BCEF25EA0A836C9E7891FE42E7 /* LDNetPing.m */,
+				D93DD0722F7D5B4F08DF1BE96C55129D /* LDNetTimer.h */,
+				EACF68A4DE2B268954C0A2671D7B37AD /* LDNetTimer.m */,
+				E4A450834B1D715F0AF4E5DECE631875 /* LDSimplePing.h */,
+				ADD60263BD38E58BE92A02EE66C30E8E /* LDSimplePing.m */,
+				589039F6D6CDEDA48AF18E251406478C /* NetworkDiag.h */,
+				12328A6BD4C0D5AAA728DBAF05145026 /* NetworkDiag.m */,
+				FB626F16EDB298E08610554CE282E209 /* Route.h */,
+				C56DA405DF7538F1B835D3C2A7E32463 /* Pod */,
+				AEFE9D696B40D44C7E7F9B78454CD432 /* Support Files */,
+			);
+			name = SXNetDiag;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58D11953F8445666EDDB7014223CEBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98FDFD75C13D340AA0201849B3C8F044 /* Pods_SXNetDiag_Example.framework */,
+				85BD45B087835E20AB6E644B3F98A92D /* Pods_SXNetDiag_Tests.framework */,
+				18341DB97CB4278BF5D96DD964B4CEA0 /* SXNetDiag.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D15017008EA51944997C3AEC0970A5B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC85C6CAFF7FEC4103D9E86B399D401D /* Pods-SXNetDiag_Example */,
+				2E7BA3C4BD9324B3B095CB0AF48CC17D /* Pods-SXNetDiag_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E3058CCB97A735CFDF953A49D5111FC9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				58D11953F8445666EDDB7014223CEBAF /* Products */,
+				7D15017008EA51944997C3AEC0970A5B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AEFE9D696B40D44C7E7F9B78454CD432 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				01102FB7887FAB4765FD41E733A27EB1 /* Info.plist */,
+				8E8667BE94BA45DEE2F2B40D1BF220C9 /* SXNetDiag.modulemap */,
+				6D71669B486B31EB3C478744F5EBA7DD /* SXNetDiag.xcconfig */,
+				F0A5B0E5375F380E09AB983E8564F5F9 /* SXNetDiag-dummy.m */,
+				87375E2FC4664D8FEDF574280103AEC9 /* SXNetDiag-prefix.pch */,
+				71B3BF0B161EAC6D585AF930FF6504E6 /* SXNetDiag-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SXNetDiag";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C56DA405DF7538F1B835D3C2A7E32463 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B7D2C86B7BDEA0AC3B8EC5DC1AEA4E7E /* LICENSE */,
+				3190B938F7151981E8D3AD282D30974B /* README.md */,
+				8050949F254F0CFE38F9178BF9ACC02A /* SXNetDiag.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E3058CCB97A735CFDF953A49D5111FC9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				386C8D64631D5BFC5CEB533C4C40AB70 /* SXNetDiag */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EC85C6CAFF7FEC4103D9E86B399D401D /* Pods-SXNetDiag_Example */ = {
+			isa = PBXGroup;
+			children = (
+				90B1DD180E800EF9E8AFFB4527083FC3 /* Info.plist */,
+				5A224C8DB2CB6EB5539A2B95ED4802AE /* Pods-SXNetDiag_Example.modulemap */,
+				C87DF28979CB3869D591D3F26C51DD37 /* Pods-SXNetDiag_Example-acknowledgements.markdown */,
+				08D944B04D59933D99D6B99850C243C8 /* Pods-SXNetDiag_Example-acknowledgements.plist */,
+				75599D59D14A5A3EF3999460709A89DE /* Pods-SXNetDiag_Example-dummy.m */,
+				42D8FC1A3E9526D96FF77EF3B11BB7F2 /* Pods-SXNetDiag_Example-frameworks.sh */,
+				0DBEB0DEA6AC70A2A53E8F815E98D7FE /* Pods-SXNetDiag_Example-resources.sh */,
+				6F9371560B413645313541220DA58945 /* Pods-SXNetDiag_Example-umbrella.h */,
+				4A19BBC253144D3361F76100C6FE992C /* Pods-SXNetDiag_Example.debug.xcconfig */,
+				FE021945A947323190268F7B5EF39E5A /* Pods-SXNetDiag_Example.release.xcconfig */,
+			);
+			name = "Pods-SXNetDiag_Example";
+			path = "Target Support Files/Pods-SXNetDiag_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A3497AD9BBBD31C62B136C294629DC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B837B4FF7D534026060F619F268E1E9 /* Pods-SXNetDiag_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3FB18429533309A257884650AE090D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1904F4707126B55913BCEFA049CFE8E /* Pods-SXNetDiag_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDD3A3FC29BBF9888B98FD05D6D9434 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F69C81BFE269181ED2834A8A61C53B7 /* DateTools.h in Headers */,
+				44E651087911788FEBC56A00A558FE5C /* GetDnsInfo.h in Headers */,
+				08A9B99DC0E8BB744EE81117FCBD2AF6 /* GetDomainDnsInfo.h in Headers */,
+				E7FCA83F0C37FE13AED9D86277AA0030 /* GetDownloadFileInfo.h in Headers */,
+				CE136B0EE2C390CEA8926D6D6DC640BF /* GetEnvInfo.h in Headers */,
+				F877CBDE8CED5FB7EA3ACC0A8DAAB53A /* LDNetGetAddress.h in Headers */,
+				547D6848166C729A52230DFD37B361E6 /* LDNetPing.h in Headers */,
+				DD98F1F77E3B0E80F7FDF1C5CE5A2C01 /* LDNetTimer.h in Headers */,
+				E2D4E3F7F0D9D3725C78D5E96ED91472 /* LDSimplePing.h in Headers */,
+				3D0A2282A768E545B6449EDE1DBD157E /* NetworkDiag.h in Headers */,
+				C4A80FCE151F45DE9A9EFE78F727B50F /* Route.h in Headers */,
+				7EACD8A55BCCE807F3AFA0C9BAFFD566 /* SXNetDiag-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		455F3896583904B3CE6B934716FB84B7 /* SXNetDiag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401A685470F473AE1DA882FAE38E0C51 /* Build configuration list for PBXNativeTarget "SXNetDiag" */;
+			buildPhases = (
+				ABDD3A3FC29BBF9888B98FD05D6D9434 /* Headers */,
+				5BE77E36C01CB4623931A115DAF19589 /* Sources */,
+				E68C95640BE29E29827F54E4E62190C0 /* Frameworks */,
+				DC135E50E27DCE45FDC3A31E8C49EADF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SXNetDiag;
+			productName = SXNetDiag;
+			productReference = 18341DB97CB4278BF5D96DD964B4CEA0 /* SXNetDiag.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5B8F9A08276D39FEFF7A6594D61AEC8F /* Pods-SXNetDiag_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8755BF174B7BB7A4EA5B3D36EB9E8F /* Build configuration list for PBXNativeTarget "Pods-SXNetDiag_Example" */;
+			buildPhases = (
+				8A3497AD9BBBD31C62B136C294629DC7 /* Headers */,
+				642FECBF0A5160820844012B632EDB18 /* Sources */,
+				FBD6373BD8218ADEE7A5299A4F9917EB /* Frameworks */,
+				BB4392F43B72D7218EEE2B691CA3324F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DDCA9B48484B679FA1B7F49CAE3BE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-SXNetDiag_Example";
+			productName = "Pods-SXNetDiag_Example";
+			productReference = 98FDFD75C13D340AA0201849B3C8F044 /* Pods_SXNetDiag_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		863A13AAC612C0CB20EACC5DCBBED549 /* Pods-SXNetDiag_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37099A5A8F6385BC021B9A45A841F9DA /* Build configuration list for PBXNativeTarget "Pods-SXNetDiag_Tests" */;
+			buildPhases = (
+				A3FB18429533309A257884650AE090D6 /* Headers */,
+				DB793FCF886990895CF26C06FAAD8C0D /* Sources */,
+				96F430771637A4D9757721DA0437F003 /* Frameworks */,
+				B499A5CC03D94C4A204FB7958315F5B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02814F22C5A00EBDABAC9B6ED5239326 /* PBXTargetDependency */,
+			);
+			name = "Pods-SXNetDiag_Tests";
+			productName = "Pods-SXNetDiag_Tests";
+			productReference = 85BD45B087835E20AB6E644B3F98A92D /* Pods_SXNetDiag_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 58D11953F8445666EDDB7014223CEBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B8F9A08276D39FEFF7A6594D61AEC8F /* Pods-SXNetDiag_Example */,
+				863A13AAC612C0CB20EACC5DCBBED549 /* Pods-SXNetDiag_Tests */,
+				455F3896583904B3CE6B934716FB84B7 /* SXNetDiag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B499A5CC03D94C4A204FB7958315F5B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB4392F43B72D7218EEE2B691CA3324F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC135E50E27DCE45FDC3A31E8C49EADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE77E36C01CB4623931A115DAF19589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257DC472F5E577802DA59F701C105D76 /* DateTools.m in Sources */,
+				B67C76A8B590854BB3F8BFB5D35B32B3 /* GetDnsInfo.m in Sources */,
+				678CAB3452BA71853C17DEF43865808D /* GetDomainDnsInfo.m in Sources */,
+				CB9FA1C0D63BA2C8AB6D37E2AAB7ACE0 /* GetDownloadFileInfo.m in Sources */,
+				B05E9EA1FAC182EB015F4C4F5382AFFD /* GetEnvInfo.m in Sources */,
+				EAEDBE72858AD122749C4CFB54C79F69 /* LDNetGetAddress.m in Sources */,
+				137B620BDBA5DC90E80E278B84F77354 /* LDNetPing.m in Sources */,
+				3A237CF99CBD43FD1B2C46074AB1931B /* LDNetTimer.m in Sources */,
+				F5D0D3B09AB29D0B4D599EFCDD8241AC /* LDSimplePing.m in Sources */,
+				C6792D13E8DA233A8FAC1661DFAD6CD0 /* NetworkDiag.m in Sources */,
+				507694B4E691955F310A9BD228ED73D9 /* SXNetDiag-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		642FECBF0A5160820844012B632EDB18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B559990F1E0E747432D3283C14560F62 /* Pods-SXNetDiag_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB793FCF886990895CF26C06FAAD8C0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				335212D64B7177273808897824066451 /* Pods-SXNetDiag_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02814F22C5A00EBDABAC9B6ED5239326 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SXNetDiag_Example";
+			target = 5B8F9A08276D39FEFF7A6594D61AEC8F /* Pods-SXNetDiag_Example */;
+			targetProxy = 7339C0B83D99A2B502C7598D34D186AE /* PBXContainerItemProxy */;
+		};
+		16DDCA9B48484B679FA1B7F49CAE3BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SXNetDiag;
+			target = 455F3896583904B3CE6B934716FB84B7 /* SXNetDiag */;
+			targetProxy = 6710CB39C9CA96B987139F8A8752D204 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02FAD22A56187C133BBF45EAD7B6D2C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D71669B486B31EB3C478744F5EBA7DD /* SXNetDiag.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SXNetDiag/SXNetDiag-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SXNetDiag/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SXNetDiag/SXNetDiag.modulemap";
+				PRODUCT_MODULE_NAME = SXNetDiag;
+				PRODUCT_NAME = SXNetDiag;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		048716BC233A9557256646D27C6367E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D71669B486B31EB3C478744F5EBA7DD /* SXNetDiag.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SXNetDiag/SXNetDiag-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SXNetDiag/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SXNetDiag/SXNetDiag.modulemap";
+				PRODUCT_MODULE_NAME = SXNetDiag;
+				PRODUCT_NAME = SXNetDiag;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		06F76C6C36C2D95ACC235FF72F6F02D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2AF55E27DF704ACD78462B12D3B5B3B /* Pods-SXNetDiag_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SXNetDiag_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SXNetDiag_Tests/Pods-SXNetDiag_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9CBB78957EF4502DB728A9E9E52AE3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE021945A947323190268F7B5EF39E5A /* Pods-SXNetDiag_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SXNetDiag_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SXNetDiag_Example/Pods-SXNetDiag_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B1688251AE93AEF8FFC3FAD7D736E3C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE6996FC5DC74758EECA29DE4B38F88 /* Pods-SXNetDiag_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SXNetDiag_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SXNetDiag_Tests/Pods-SXNetDiag_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB66F88A79510D9AA95B56E42EFE54A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A19BBC253144D3361F76100C6FE992C /* Pods-SXNetDiag_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SXNetDiag_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SXNetDiag_Example/Pods-SXNetDiag_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37099A5A8F6385BC021B9A45A841F9DA /* Build configuration list for PBXNativeTarget "Pods-SXNetDiag_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F76C6C36C2D95ACC235FF72F6F02D1 /* Debug */,
+				B1688251AE93AEF8FFC3FAD7D736E3C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		401A685470F473AE1DA882FAE38E0C51 /* Build configuration list for PBXNativeTarget "SXNetDiag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02FAD22A56187C133BBF45EAD7B6D2C1 /* Debug */,
+				048716BC233A9557256646D27C6367E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8755BF174B7BB7A4EA5B3D36EB9E8F /* Build configuration list for PBXNativeTarget "Pods-SXNetDiag_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB66F88A79510D9AA95B56E42EFE54A4 /* Debug */,
+				9CBB78957EF4502DB728A9E9E52AE3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
