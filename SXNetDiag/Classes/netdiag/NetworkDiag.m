@@ -12,7 +12,7 @@
 #import "GetDomainDnsInfo.h"
 #import "LDNetPing.h"
 #import "GetDownloadFileInfo.h"
-#import "Ngdy_PlayerUrlSecurityMonitoring.h"
+//#import "Ngdy_PlayerUrlSecurityMonitoring.h"
 #import "DateTools.h"
 
 @interface NetworkDiag ()<LDNetPingDelegate,NetworkDiagDelegate>{
@@ -54,20 +54,20 @@ bool *isStopTag;
     isStopTag = NO;
     timestamp = time_stamp;
     if (_callback == nil) {
-        NSLog_Ngdy(@"无代理，不能回调数据");
+        NSLog(@"无代理，不能回调数据");
         
         return;
     }
     //添加用户ID
     if(userID == nil){
-        NSLog_Ngdy(@"userID is nil!");
+        NSLog(@"userID is nil!");
         [diagDict setObject:@"" forKey:@"userID"];
     }else{
         [diagDict setObject:userID forKey:@"userID"];
     }
     //添加用户手机号
     if(userPhone == nil){
-        NSLog_Ngdy(@"userPhone is nil!");
+        NSLog(@"userPhone is nil!");
         [diagDict setObject:@"" forKey:@"userPhone"];
     }else{
         [diagDict setObject:userPhone forKey:@"userPhone"];
@@ -77,7 +77,7 @@ bool *isStopTag;
         
         //添加播放信息
         if(moviceInfo == nil){
-            NSLog_Ngdy(@"moviceInfo is nil!");
+            NSLog(@"moviceInfo is nil!");
             [diagDict setObject:[[NSDictionary alloc]init] forKey:@"playInfo"];
         }else{
             [diagDict setObject:moviceInfo forKey:@"playInfo"];
@@ -115,7 +115,7 @@ bool *isStopTag;
     }else{
         isDnsParseOK = NO;
     }
-    NSLog_Ngdy(@"------------------------------^-^--->%d",isDnsParseOK);
+    NSLog(@"------------------------------^-^--->%d",isDnsParseOK);
     
 
 }
@@ -126,7 +126,7 @@ bool *isStopTag;
         return;
     }
     if(domainInfos == nil || [domainInfos count]<=0){
-        NSLog_Ngdy(@"dns list is nil");
+        NSLog(@"dns list is nil");
         [diagDict setObject:cdnDiagInfos forKey:@"cdnInfo"];
         [_callback dataCallback:diagDict isDnsParseOK:isDnsParseOK];
         return;
@@ -147,14 +147,15 @@ bool *isStopTag;
             _getFile = [[GetDownloadFileInfo alloc]init];
             _getFile.callbackDelegate = self;
             
-            NSLog_Ngdy(@" --------- 未处理 %@",cdn_download_url);
+            NSLog(@" --------- 未处理 %@",cdn_download_url);
             
             
             long long ts = [DateTools getVerifyServerTimestamp];
-            cdn_download_url = [[Ngdy_PlayerUrlSecurityMonitoring playerUrlSecurityMonitoring] Ngdy_PlayerUrlSecurityMonitoringUrl:cdn_download_url timestamp:[NSString stringWithFormat:@"%llu",ts] isPcdn:YES];
+            //TODO:
+            cdn_download_url = cdn_download_url;
             
             
-            NSLog_Ngdy(@" -- 已处理 %@",cdn_download_url);
+            NSLog(@" -- 已处理 %@",cdn_download_url);
             if (isStopTag) {
                 return;
             }
@@ -185,7 +186,7 @@ bool *isStopTag;
     if (isStopTag) {
         return;
     }
-    NSLog_Ngdy(@"downloadFileInfo == %@",downloadFileInfo);
+    NSLog(@"downloadFileInfo == %@",downloadFileInfo);
     [cdnDiagInfo setObject:downloadFileInfo forKey:@"fileDownloadInfo"];
     //开始Ping
     pingInfo = [[NSMutableArray alloc]init];
@@ -222,7 +223,7 @@ bool *isStopTag;
     if (isStopTag) {
         return;
     }
-//    NSLog_Ngdy(@"appendPingLog===========>%@",pingLog);
+//    NSLog(@"appendPingLog===========>%@",pingLog);
     [pingInfo addObject:pingLog];
 }
 
@@ -230,7 +231,7 @@ bool *isStopTag;
     if (isStopTag) {
         return;
     }
-//    NSLog_Ngdy(@"netPingDidEnd===========>");
+//    NSLog(@"netPingDidEnd===========>");
     [cdnDiagInfo setObject:pingInfo forKey:@"pingInfo"];
     [cdnDiagInfos addObject:cdnDiagInfo];
     [self startDiagDNSList];

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15EAF5862294F03E008C87C3 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EAF5852294F03E008C87C3 /* libresolv.tbd */; };
 		1BEE5CAF0EA134B2964D316F /* Pods_SXNetDiag_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B056992603BB1586A5536D2A /* Pods_SXNetDiag_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15EAF5852294F03E008C87C3 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		16E42C39DD7E6D89227D89BA /* Pods-SXNetDiag_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SXNetDiag_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SXNetDiag_Example/Pods-SXNetDiag_Example.release.xcconfig"; sourceTree = "<group>"; };
 		342FCFEE977B986273EF913F /* Pods_SXNetDiag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SXNetDiag_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* SXNetDiag_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXNetDiag_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,13 +61,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7815BC8C17E3735DA1243606 /* SXNetDiag.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SXNetDiag.podspec; path = ../SXNetDiag.podspec; sourceTree = "<group>"; };
+		7815BC8C17E3735DA1243606 /* SXNetDiag.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SXNetDiag.podspec; path = ../SXNetDiag.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CF4CC3DDAE4C8A643D71205 /* Pods-SXNetDiag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SXNetDiag_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SXNetDiag_Tests/Pods-SXNetDiag_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B056992603BB1586A5536D2A /* Pods_SXNetDiag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SXNetDiag_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B16C3398EFD38FD4B9DB0962 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B16C3398EFD38FD4B9DB0962 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		ECA3AFEEB42D0553323AAB51 /* Pods-SXNetDiag_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SXNetDiag_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SXNetDiag_Tests/Pods-SXNetDiag_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6FD862DF94BD8C5AF901A67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F6FD862DF94BD8C5AF901A67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FC26B09DD86FC7D803D0ED23 /* Pods-SXNetDiag_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SXNetDiag_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SXNetDiag_Example/Pods-SXNetDiag_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EAF5862294F03E008C87C3 /* libresolv.tbd in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -119,6 +122,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15EAF5852294F03E008C87C3 /* libresolv.tbd */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -247,6 +251,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = lushaoxiong;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 254E2VR4TC;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -497,6 +504,7 @@
 			baseConfigurationReference = FC26B09DD86FC7D803D0ED23 /* Pods-SXNetDiag_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 254E2VR4TC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SXNetDiag/SXNetDiag-Prefix.pch";
 				INFOPLIST_FILE = "SXNetDiag/SXNetDiag-Info.plist";
@@ -512,6 +520,7 @@
 			baseConfigurationReference = 16E42C39DD7E6D89227D89BA /* Pods-SXNetDiag_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 254E2VR4TC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SXNetDiag/SXNetDiag-Prefix.pch";
 				INFOPLIST_FILE = "SXNetDiag/SXNetDiag-Info.plist";

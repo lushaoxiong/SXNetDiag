@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		08A9B99DC0E8BB744EE81117FCBD2AF6 /* GetDomainDnsInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D12F9D912E80ACA78124384BA1EAB071 /* GetDomainDnsInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		137B620BDBA5DC90E80E278B84F77354 /* LDNetPing.m in Sources */ = {isa = PBXBuildFile; fileRef = 524904BCEF25EA0A836C9E7891FE42E7 /* LDNetPing.m */; };
+		15EAF5842294EFA5008C87C3 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 15EAF5832294EFA5008C87C3 /* libresolv.tbd */; };
 		257DC472F5E577802DA59F701C105D76 /* DateTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4D4315E9B8EA3BAE5B96E5342C8026 /* DateTools.m */; };
 		335212D64B7177273808897824066451 /* Pods-SXNetDiag_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B901B85A8D7C8F73A42ACEBD5811B195 /* Pods-SXNetDiag_Tests-dummy.m */; };
 		3A237CF99CBD43FD1B2C46074AB1931B /* LDNetTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EACF68A4DE2B268954C0A2671D7B37AD /* LDNetTimer.m */; };
@@ -64,9 +65,10 @@
 		0B4D4315E9B8EA3BAE5B96E5342C8026 /* DateTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DateTools.m; path = SXNetDiag/Classes/netdiag/DateTools.m; sourceTree = "<group>"; };
 		0DBEB0DEA6AC70A2A53E8F815E98D7FE /* Pods-SXNetDiag_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXNetDiag_Example-resources.sh"; sourceTree = "<group>"; };
 		12328A6BD4C0D5AAA728DBAF05145026 /* NetworkDiag.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetworkDiag.m; path = SXNetDiag/Classes/netdiag/NetworkDiag.m; sourceTree = "<group>"; };
-		18341DB97CB4278BF5D96DD964B4CEA0 /* SXNetDiag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SXNetDiag.framework; path = SXNetDiag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EAF5832294EFA5008C87C3 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
+		18341DB97CB4278BF5D96DD964B4CEA0 /* SXNetDiag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SXNetDiag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20A5E57179B8A8405D5D3452D5995956 /* GetDomainDnsInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetDomainDnsInfo.m; path = SXNetDiag/Classes/netdiag/GetDomainDnsInfo.m; sourceTree = "<group>"; };
-		3190B938F7151981E8D3AD282D30974B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3190B938F7151981E8D3AD282D30974B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3A507AC85CF65DB99FE6E3F798961CB6 /* LDNetGetAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDNetGetAddress.m; path = SXNetDiag/Classes/netdiag/LDNetGetAddress.m; sourceTree = "<group>"; };
 		3B1D31B54ED8CA8300A5C9C71A87AE1E /* Pods-SXNetDiag_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXNetDiag_Tests-resources.sh"; sourceTree = "<group>"; };
 		3D5ABAD115994A85797FF63CF8BD581D /* Pods-SXNetDiag_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SXNetDiag_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -84,17 +86,17 @@
 		75599D59D14A5A3EF3999460709A89DE /* Pods-SXNetDiag_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SXNetDiag_Example-dummy.m"; sourceTree = "<group>"; };
 		779DBC3E5C93C44D66867D98258FA204 /* LDNetGetAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDNetGetAddress.h; path = SXNetDiag/Classes/netdiag/LDNetGetAddress.h; sourceTree = "<group>"; };
 		7EE6996FC5DC74758EECA29DE4B38F88 /* Pods-SXNetDiag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXNetDiag_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8050949F254F0CFE38F9178BF9ACC02A /* SXNetDiag.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SXNetDiag.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		85BD45B087835E20AB6E644B3F98A92D /* Pods_SXNetDiag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SXNetDiag_Tests.framework; path = "Pods-SXNetDiag_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8050949F254F0CFE38F9178BF9ACC02A /* SXNetDiag.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SXNetDiag.podspec; sourceTree = "<group>"; };
+		85BD45B087835E20AB6E644B3F98A92D /* Pods_SXNetDiag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SXNetDiag_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87375E2FC4664D8FEDF574280103AEC9 /* SXNetDiag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SXNetDiag-prefix.pch"; sourceTree = "<group>"; };
 		8E8667BE94BA45DEE2F2B40D1BF220C9 /* SXNetDiag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SXNetDiag.modulemap; sourceTree = "<group>"; };
 		90B1DD180E800EF9E8AFFB4527083FC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98FDFD75C13D340AA0201849B3C8F044 /* Pods_SXNetDiag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SXNetDiag_Example.framework; path = "Pods-SXNetDiag_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98FDFD75C13D340AA0201849B3C8F044 /* Pods_SXNetDiag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SXNetDiag_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A769A417E18A047E4272D1936E7E4C2 /* GetDnsInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetDnsInfo.m; path = SXNetDiag/Classes/netdiag/GetDnsInfo.m; sourceTree = "<group>"; };
 		ADD60263BD38E58BE92A02EE66C30E8E /* LDSimplePing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDSimplePing.m; path = SXNetDiag/Classes/netdiag/LDSimplePing.m; sourceTree = "<group>"; };
 		ADD7952D0C96BE7C6E89C32C0ACB24D5 /* GetDownloadFileInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GetDownloadFileInfo.m; path = SXNetDiag/Classes/netdiag/GetDownloadFileInfo.m; sourceTree = "<group>"; };
-		B7D2C86B7BDEA0AC3B8EC5DC1AEA4E7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B7D2C86B7BDEA0AC3B8EC5DC1AEA4E7E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B901B85A8D7C8F73A42ACEBD5811B195 /* Pods-SXNetDiag_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SXNetDiag_Tests-dummy.m"; sourceTree = "<group>"; };
 		C25FB6B013DA964E05E12464EEB56FA1 /* DateTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DateTools.h; path = SXNetDiag/Classes/netdiag/DateTools.h; sourceTree = "<group>"; };
 		C87DF28979CB3869D591D3F26C51DD37 /* Pods-SXNetDiag_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SXNetDiag_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15EAF5842294EFA5008C87C3 /* libresolv.tbd in Frameworks */,
 				EB295A508B929C0962616838F40C8367 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,6 +249,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15EAF5832294EFA5008C87C3 /* libresolv.tbd */,
 				44D5347904CF754D6785B84253F2574A /* iOS */,
 			);
 			name = Frameworks;
@@ -638,8 +642,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
