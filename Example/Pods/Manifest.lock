@@ -1,5 +1,5 @@
 PODS:
-  - SXNetDiag (0.1.1)
+  - SXNetDiag (0.1.2)
 
 DEPENDENCIES:
   - SXNetDiag (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SXNetDiag: 0ff98d0f59d3688aeabc22f2ef00d17fe6210334
+  SXNetDiag: 4313d70d31146ea49b56d4bc94bf9df83672aee3
 
 PODFILE CHECKSUM: 0e38bce50778a84eb5120d5d6cde4a89701c1bfb
 

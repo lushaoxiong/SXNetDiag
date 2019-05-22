@@ -19,7 +19,6 @@
 #import "LDNetPing.h"
 #import "LDNetTimer.h"
 #import "LDSimplePing.h"
-#import "NetworkDiag.h"
 #import "Route.h"
 
 FOUNDATION_EXPORT double SXNetDiagVersionNumber;
