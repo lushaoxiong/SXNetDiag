@@ -352,7 +352,13 @@
             }
         }
     } else {
-        NSArray *subviews = [[[[UIApplication sharedApplication] valueForKey:@"statusBar"]
+        UIView *statusBar = nil;
+        if (@available(iOS 13.0, *)) {
+            statusBar = [[UIView alloc]initWithFrame:[UIApplication sharedApplication].keyWindow.windowScene.statusBarManager.statusBarFrame];
+        }else{
+            statusBar = [[[UIApplication sharedApplication] valueForKey:@"statusBarWindow"] valueForKey:@"statusBar"];
+        }
+        NSArray *subviews = [[statusBar
                               valueForKey:@"foregroundView"] subviews];
         NSNumber *dataNetworkItemView = nil;
         for (id subview in subviews) {
